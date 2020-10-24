@@ -1,7 +1,7 @@
 ---
-title: "data science class"
+title: "課�<a0>�練習模<e7><89><88>"
 author: "Larry Hsieh"
-date: "2020-09-23"
+date: "2020-10-21"
 output: output_format
 params:
   id: "410777098"
@@ -17,7 +17,3 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```
 
-[eBOOK](https://tpemartin.github.io/NTPU-R-for-Data-Science/randrstudio.html#what-is-r-what-is-rstudio)
-
-```{r}
-```

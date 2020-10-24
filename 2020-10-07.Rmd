@@ -37,11 +37,37 @@ length(myName) # 查看物件本身代表幾個值。
 num1 <- 5
 vNum1 <- c(2,5)
 vNum2 <- c(2, num1)
+vNum1
+vNum2
 ```
 
 ```{r}
 vNum1 <- vNum2
 vNum2 <- c(2,vNum1)
+vNum1
+vNum2
+```
+
+```{r}
+vNum1 <- c(-1,5)
+vNum2 <- c(2,3)
+vNum3 <- c(vNum1,vNum2)
+vNum4 <- c(-1,5,2,3)
+vNum5 <- c(c(-1,5),c(2,3))
+vNum5
+```
+
+```{r}
+vNum1 <- c(-1,5)
+vNum2 <- c(2,3)
+vNum4 <- c() # 空向量
+```
+
+```{r}
+vNum3 <- c(vNum2, vNum1)
+vNum4 <- c(vNum4, vNum1) # 向量疊代 （recursive vector concatenate）
+vNum3
+vNum4
 ```
 
 
@@ -115,3 +141,16 @@ cat(context)
 ```{r}
 library(styler)
 ```
+
+```{r}
+num <- c(1.5, 2, 3)
+int <- c(1L, 3L, -2L)
+char <- c("1.5","2","3")
+logi <- c(T,T,F)
+
+typeof(num)
+typeof(int)
+typeof(char)
+typeof(logi)
+```
+
