@@ -1,0 +1,43 @@
+---
+title: "課?<a0>?練習模<e7><89><88>"
+author: "Larry Hsieh"
+date: "2020-11-04"
+output: output_format
+params:
+  id: "410777098"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Your code
+
+
+```{r}
+gender="男"
+school="國立台北大學"
+title=""
+content=""
+tags=
+timestamp=
+```
+
+```{r}
+photos
+""
+```
+
+
+
+```{r}
+Tpetime <- mdy_hm("Nov. 4 2020 15:00", tz="Asia/Taipei")
+
+USA_2020election <- list(
+Trump_vote = c(213), Biden_vote = c(224), time = with_tz(Tpetime, tzone="America/New_York"))
+
+USA_2020election
+```
+
+
+
